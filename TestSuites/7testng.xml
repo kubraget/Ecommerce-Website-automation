@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Hash 2 Test">
+		<classes>
+			<class name="rahulshettyacademy.test.Hashcode" />
+		</classes>
+	</test>
+	<test thread-count="5" name="Submit 3 Test">
+		<classes>
+			<class name="rahulshettyacademy.test.SubmitOrdercode" />
+		</classes>
+	</test>
+	<test thread-count="5" name="Data 2 Test">
+		<classes>
+			<class name="rahulshettyacademy.test.DataProvidercode" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
